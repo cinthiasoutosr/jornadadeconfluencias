@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jornada de Confluências · 1º Webinar: Orquestração de Ecossistemas de Inovação da Amazônia</title>
-<meta name="description" content="1º Webinar da série Jornada de Confluências: Orquestração de Ecossistemas de Inovação da Amazônia: Novas Formas de Bioconhecimento. 8 de outubro de 2026, das 19h às 20h30 (horário de Brasília), online e gratuito. Realização: Centro Universitário FEI, FPFTech, Soul ESGS Consultoria e UEA.">
+<meta name="description" content="1º Webinar da série Jornada de Confluências: Orquestração de Ecossistemas de Inovação da Amazônia: Novas Formas de Bioconhecimento. 8 de outubro de 2026, das 19h às 20h30 (horário de Brasília), ou das 18h às 19h30 (horário de Manaus), online e gratuito. Realização: Centro Universitário FEI, FPFTech, Soul ESGS Consultoria e UEA.">
 <meta name="keywords" content="Amazônia, bioeconomia, ecossistemas de inovação, bioconhecimento, plataformização, FEI, FPFTech, Soul ESGS, UEA, CEPID Bridge, webinar, Jornada de Confluências">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Jornada de Confluências · 1º Webinar: Orquestração de Ecossistemas de Inovação da Amazônia">
-<meta property="og:description" content="Webinar online e gratuito em 8 de outubro de 2026, das 19h às 20h30 (horário de Brasília). Vagas limitadas.">
+<meta property="og:description" content="Webinar online e gratuito em 8 de outubro de 2026, das 19h às 20h30 (horário de Brasília), ou das 18h às 19h30 (horário de Manaus). Vagas limitadas.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -89,15 +89,17 @@ p + p{margin-top:16px}
   linear-gradient(135deg,var(--fei) 0%,var(--petrol) 55%,var(--petrol-deep) 100%)}
 .hero .rivers{position:absolute;inset:0;width:100%;height:100%;opacity:.22;pointer-events:none}
 .hero .wrap{position:relative}
-.invite{font-size:17px;max-width:780px;color:rgba(255,255,255,.88);margin-bottom:34px}
-.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--mustard);margin-bottom:16px}
-.eyebrow::before{content:"";width:34px;height:3px;border-radius:2px;background:var(--coral)}
+.invite{font-size:20px;line-height:1.55;max-width:860px;color:#fff;font-weight:400;margin-bottom:26px}
+.invite b{font-weight:600;color:#fff}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:19px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#F2C35B;margin-bottom:18px;padding:9px 20px;border:1.5px solid rgba(242,195,91,.55);background:rgba(212,165,43,.14);border-radius:999px}
+.eyebrow::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--coral);flex:0 0 auto}
 .hero h1{font-size:clamp(24px,3.2vw,36px);line-height:1.25;font-weight:700;max-width:860px;margin-bottom:40px}
 .hero h1 span{color:#F2C35B}
 .info-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:960px;margin-bottom:40px}
 .info{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:18px 20px;backdrop-filter:blur(4px)}
 .info small{display:block;font-family:"Poppins",sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mustard);font-weight:600;margin-bottom:4px}
 .info strong{font-weight:600;font-size:16px;line-height:1.4;display:block}
+.info strong.alt{font-weight:500;font-size:14px;color:rgba(255,255,255,.8);margin-top:6px}
 .btn{display:inline-flex;align-items:center;gap:10px;background:var(--coral);color:var(--white);text-decoration:none;font-weight:600;font-size:16px;padding:16px 30px;border-radius:999px;transition:transform .2s,background .2s;box-shadow:0 10px 26px rgba(224,123,40,.35)}
 .btn:hover{background:#C9661A;transform:translateY(-2px)}
 .btn svg{width:18px;height:18px}
@@ -106,6 +108,9 @@ p + p{margin-top:16px}
 /* ===== Sobre ===== */
 .about{background:var(--white)}
 .about .lead{font-size:15px;color:var(--graphite)}
+.quote{margin:4px 0 24px;border-left:4px solid var(--mustard);background:var(--sand);padding:22px 28px;border-radius:0 var(--radius) var(--radius) 0}
+.quote p{font-size:16px;font-style:italic;color:var(--petrol);line-height:1.6}
+.quote cite{display:block;margin-top:10px;font-style:normal;font-size:13px;color:var(--muted)}
 .premise{margin-top:22px;border-left:4px solid var(--mustard);background:var(--sand);padding:24px 28px;border-radius:0 var(--radius) var(--radius) 0;color:var(--graphite)}
 .q-list{list-style:none;counter-reset:q;display:grid;gap:14px;margin-top:22px}
 .q-list li{counter-increment:q;position:relative;padding:18px 20px 18px 68px;background:var(--mist);border-radius:14px;color:var(--ink)}
@@ -193,6 +198,8 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
   .event-card{padding:24px}
   .guest{flex-direction:column;gap:14px}
   .label{font-size:14px}
+  .invite{font-size:17px}
+  .eyebrow{font-size:12.5px;padding:7px 14px;letter-spacing:.03em;gap:8px}
   .member{flex-direction:column;gap:14px}
   .sponsor-row .logo-box{width:calc(50% - 8px);height:92px}
   .sponsor-row .logo-box{padding:8px}
@@ -220,13 +227,13 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
     <path d="M600 -20 C 640 120, 760 160, 820 260 S 900 420, 1040 620" fill="none" stroke="#F3D58A" stroke-width="1.2"/>
   </svg>
   <div class="wrap">
-    <p class="invite">O Centro Universitário FEI, em parceria com a FPFTech, a Soul ESGS Consultoria e a Universidade do Estado do Amazonas (UEA), convida para:</p>
+    <p class="invite">O <b>Centro Universitário FEI</b>, em parceria com a <b>FPFTech</b>, a <b>Soul ESGS Consultoria</b> e a <b>Universidade do Estado do Amazonas (UEA)</b>, convida para:</p>
     <div class="eyebrow">1º Webinar · Jornada de Confluências</div>
     <h1>“Orquestração de Ecossistemas de Inovação da Amazônia: <span>Novas Formas de Bioconhecimento</span>”</h1>
 
     <div class="info-grid">
       <div class="info"><small>Data</small><strong>8 de outubro de 2026</strong></div>
-      <div class="info"><small>Horário</small><strong>Das 19h às 20h30<br>(horário de Brasília)</strong></div>
+      <div class="info"><small>Horário</small><strong>Das 19h às 20h30<br>(horário de Brasília)</strong><strong class="alt">Das 18h às 19h30<br>(horário de Manaus)</strong></div>
       <div class="info"><small>Local</small><strong>Transmissão online</strong></div>
       <div class="info"><small>Inscrição</small><strong>Gratuita<br>Vagas limitadas</strong></div>
     </div>
@@ -245,12 +252,14 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
     <h2>Jornada de Confluências: Série de Webinários</h2>
 
     <h3>Motivação da série</h3>
-    <p class="lead">As iniciativas de inovação em bioeconomia na Amazônia encontram-se hoje distribuídas entre múltiplos atores, financiadores, territórios e arranjos institucionais. A série nasce da constatação de que esse conhecimento, hoje fragmentado entre parques tecnológicos, empresas, organizações, institutos de pesquisa, órgãos públicos e comunidades produtoras, pode ter um novo espaço de escuta e articulação antes de qualquer proposição.</p>
-    <p>Trata-se de uma iniciativa do projeto de pesquisa de Mestrado em Administração, na linha de pesquisa Gestão da Tecnologia e Inovação, <em>“Plataformização de ecossistemas de inovação de bioeconomia regenerativa na Amazônia”</em>, do Centro Universitário FEI, e do projeto de pesquisa <em>“Gestão de Ecossistemas para Transições Sustentáveis”</em>, vinculado ao CEPID Bridge, Centro de Pesquisa, Inovação e Difusão financiado pela FAPESP (2024-2029), sediado na FEA-USP e do qual a FEI é instituição signatária, ao lado da Unicamp, da FGV e das universidades de Oxford, Cambridge, Sussex e Texas.</p>
+    <blockquote class="quote">
+      <p>“Um rio não deixa de ser um rio porque conflui com outro rio, ao contrário, ele passa a ser ele mesmo e outros rios, ele se fortalece. Quando a gente confluencia, a gente não deixa de ser a gente, a gente passa a ser a gente e outra gente, a gente rende. A confluência é uma força que rende, que aumenta, que amplia.”</p>
+      <cite>BISPO DOS SANTOS, Antônio. <em>A terra dá, a terra quer</em>. São Paulo: Ubu Editora: PISEAGRAMA, 2023. 112 p.</cite>
+    </blockquote>
 
-    <div class="premise">
-      <p>A premissa que orienta o trabalho é a de que a inovação amazônica não se constrói pela réplica de modelos do Sul-Sudeste. A biodiversidade da região é simultaneamente biológica, social e cultural, e seus produtos carregam a assinatura do território e das comunidades que os produzem. O ecossistema de inovação da Amazônia requer, portanto, arquitetura, linguagem e identidade próprias.</p>
-    </div>
+    <p>A Jornada de Confluências nasce para impulsionar a articulação integrada e a movimentação ativa de fundações, associações, ICTs, empresas, organizações, da academia e de demais atores que fazem parte da realidade da Amazônia. O ciclo busca promover o diálogo sobre o presente, além de pavimentar o caminho para um futuro próximo em que a inteligência e a pesquisa já produzidas ganhem relevância pragmática.</p>
+    <p>O objetivo é unir saberes com intencionalidade para transformar iniciativas em possibilidades de negócios sustentáveis e regenerativos, visando resultados práticos e dinamizando o ecossistema de bioeconomia para que evolua em direção a organizações estruturadas a partir da própria identidade regional.</p>
+    <p>Trata-se de uma iniciativa da agenda de pesquisa de Mestrado em Administração, na linha de pesquisa Gestão da Tecnologia e Inovação, <em>“Plataformização de ecossistemas de inovação de bioeconomia regenerativa na Amazônia”</em>, do Centro Universitário FEI, e do programa de pesquisa <em>“Gestão de Ecossistemas para Transições Sustentáveis”</em>, vinculado ao CEPID Bridge, Centro de Pesquisa, Inovação e Difusão financiado pela FAPESP (2024-2029), sediado na FEA-USP e do qual a FEI é instituição signatária, ao lado da Unicamp, da FGV e das universidades de Oxford, Cambridge, Sussex e Texas.</p>
 
     <div class="audience">
       <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2c2.8.3 5 2.6 5 5.8"/></svg></div>
@@ -267,7 +276,7 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
 
     <div class="event-card">
       <div>
-        <p>O 1º webinar da série Jornada de Confluências convida todos a dialogar e refletir sobre a <strong>“Orquestração de Ecossistemas de Inovação da Amazônia: Novas Formas de Bioconhecimento”</strong>. O encontro online acontece no dia 8 de outubro de 2026, das 19h às 20h30 (horário de Brasília), com inscrições gratuitas e vagas limitadas pela plataforma Luma.</p>
+        <p>O 1º webinar da série Jornada de Confluências convida todos a dialogar e refletir sobre a <strong>“Orquestração de Ecossistemas de Inovação da Amazônia: Novas Formas de Bioconhecimento”</strong>. O encontro online acontece no dia 8 de outubro de 2026, das 19h às 20h30 (horário de Brasília), ou das 18h às 19h30 (horário de Manaus), com inscrições gratuitas e vagas limitadas pela plataforma Luma.</p>
         <div class="cta-line">
           <!-- COLE O LINK DO LUMA NO href ABAIXO (substitua o #) -->
           <a class="btn" href="#" target="_blank" rel="noopener">Acesse e inscreva-se
@@ -277,7 +286,7 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
       </div>
       <div class="facts">
         <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><div><b>Data:</b> 8 de outubro de 2026</div></div>
-        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Horário:</b> das 19h às 20h30 (horário de Brasília)</div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Horário:</b> das 19h às 20h30 (horário de Brasília)<br>das 18h às 19h30 (horário de Manaus)</div></div>
         <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><div><b>Local:</b> transmissão online</div></div>
         <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M20 12v8H4v-8M2 7h20v5H2zM12 20V7M12 7C10 3 6 3 6 5.5S9 7 12 7zM12 7c2-4 6-4 6-1.5S15 7 12 7z"/></svg><div><b>Inscrição:</b> gratuita, vagas limitadas</div></div>
       </div>
@@ -289,6 +298,35 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
       <div class="pq">Como se visualiza a inovação de base amazônica e o que a distingue de outros arranjos regionais?</div>
       <div class="pq">Quais são os principais desafios (institucionais, regulatórios, tecnológicos e de mercado) à consolidação desse ecossistema?</div>
       <div class="pq">Quais atores precisam necessariamente estar envolvidos nesse movimento?</div>
+    </div>
+
+    <h3 style="margin-top:40px">Abertura</h3>
+    <div class="guests">
+      <div class="guest">
+        <div class="avatar">RB</div>
+        <div>
+          <h4>Prof. Dr. Roberto Bernardes <a class="li" href="https://www.linkedin.com/in/roberto-bernardes-b8655a240/" target="_blank" rel="noopener" aria-label="LinkedIn de Prof. Dr. Roberto Bernardes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></h4>
+          <p class="role"><b>CEPID Bridge | PPGA-FEI</b></p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:40px">Moderadores</h3>
+    <div class="guests">
+      <div class="guest">
+        <div class="avatar">AM</div>
+        <div>
+          <h4>Prof. Dr. Antônio de Lima Mesquita <a class="li" href="https://www.linkedin.com/in/antonio-de-lima-mesquita-269b7b1a/" target="_blank" rel="noopener" aria-label="LinkedIn de Prof. Dr. Antônio de Lima Mesquita"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></h4>
+          <p class="role"><b>Universidade do Estado do Amazonas (UEA)</b></p>
+        </div>
+      </div>
+      <div class="guest">
+        <div class="avatar">OC</div>
+        <div>
+          <h4>Olinda Canhoto, PhD <a class="li" href="https://www.linkedin.com/in/olinda-canhoto-68287929/" target="_blank" rel="noopener" aria-label="LinkedIn de Olinda Canhoto, PhD"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></h4>
+          <p class="role"><b>FPFTech</b></p>
+        </div>
+      </div>
     </div>
 
     <h3 style="margin-top:40px">Convidados</h3>
@@ -359,6 +397,13 @@ footer{background:var(--petrol-deep);color:rgba(255,255,255,.85);padding:52px 0}
         <div>
           <h4>Esp. Cínthia Souto <a class="li" href="https://www.linkedin.com/in/cinthiasouto/" target="_blank" rel="noopener" aria-label="LinkedIn de Esp. Cínthia Souto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></h4>
           <p>Especialista em Sustentabilidade e ESG pela FIA Business School. Mestranda e pesquisadora em Tecnologia e Inovação na FEI (PPGA). Mercadóloga, especialista em IA e Comunicação ESG pela ESPM. Outorgada LAQI Speaker of the Year 2026 · Accredited International Speaker 2026.</p>
+        </div>
+      </div>
+      <div class="member">
+        <div class="avatar">FB</div>
+        <div>
+          <h4>Prof. Dr. Felipe Borini</h4>
+          <p>Coordenador de pesquisa do CEPID Bridge e professor da FEA-USP (Faculdade de Economia e Administração da Universidade de São Paulo). Atua em temas estratégicos como gestão de ecossistemas, empreendedorismo científico e corporativo, inovação e estratégia organizacional.</p>
         </div>
       </div>
       <div class="member">
